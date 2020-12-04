@@ -17,7 +17,9 @@ LABS is open for extensions, and can be found in <a href="https://github.com/nus
 <hr>
 <h3><b>Video</b></h3>
 The 15-minute technical talk at ICCAD 2020. 
-<center><iframe width="700" height="400" src="https://www.youtube.com/embed/pXdiQUBTQw8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/pXdiQUBTQw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <hr>
 <h3><b>Our Paper</b></h3>
