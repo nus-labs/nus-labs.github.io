@@ -4,7 +4,7 @@ title: Laser Attack Benchmark Suite (LABS)
 permalink: /
 ---
 
-<center><img src="/images/overview.jpg" width="600" height="350"></center>
+<center><img src="/images/overview.jpg" width="500" height="300"></center>
 
 Laser fault injection is one of the most dangerous means to introduce faults into a target system due to the fact that laser shots can be fired at the right time and location with repeatability. Attackers can exploit faults induced by lasers to, for example, retrieve confidential information from an AES cryptographic algorithm or degrade neural network performance.
 
