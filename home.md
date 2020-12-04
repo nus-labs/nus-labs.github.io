@@ -28,6 +28,7 @@ The 15-minute technical talk at ICCAD 2020.
 2020 IEEE/ACM International Conference On Computer Aided Design (ICCAD)
 <br>
 Burin Amornpaisannon, Andreas Diavastos, Li-Shiuan Peh and Trevor E. Carlson
+<div class="scrollmenu">
 <h5><pre><code>@INPROCEEDINGS{9256786,
   author={B. {Amornpaisannon} and A. {Diavastos} and L. -S. {Peh} and T. E. {Carlson}}, 
   booktitle={2020 IEEE/ACM International Conference On Computer Aided Design (ICCAD)}, 
@@ -37,6 +38,7 @@ Burin Amornpaisannon, Andreas Diavastos, Li-Shiuan Peh and Trevor E. Carlson
   number={},
   pages={1-9}, 
   doi={}}</code></pre></h5>
+</div>
 
 <hr>
 <h3>Team</h3>
