@@ -9,9 +9,9 @@ Laser fault injection is one of the most dangerous means to introduce faults int
 
 With most of the current design flows, security evaluation against laser fault injection is done after fabrication, which requires costly, sophisticated equipment and skilled technicians. Design respins are inevitable when vulnerabilities are found at this stage to integrate countermeasures. These limitations make this current security evaluation impractical. A framework that facilitates circuit designers to test their designs during the pre-fabrication stage is critically needed.
 
-We propose the Laser Attack Benchmark Suite (LABS) that aims to complete the security evaluation loop against laser fault injection. LABS allows circuit designers to test their designs agaist well-known laser fault injection attacks and automatically integrate a hardware-based redundancy technique at the early RTL design stage. The modified design can be run with a Verilog simulator or on an FPGA without manual modifications. 
+We propose the Laser Attack Benchmark Suite (LABS) that aims to complete the security evaluation loop against laser fault injection. LABS allows circuit designers to test their designs against well-known laser fault injection attacks and automatically integrate a hardware-based redundancy technique at the early RTL design stage. The modified design can be run with a Verilog simulator or on an FPGA without manual modifications. 
 
-LABS is open for extensions, and can be found in <a href="https://github.com/nus-labs/labs">the Github repository</a>.
+LABS is open for extensions and can be found in <a href="https://github.com/nus-labs/labs">the Github repository</a>.
 
 <hr>
   <div class="container">
