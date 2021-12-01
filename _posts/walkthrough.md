@@ -78,7 +78,7 @@ Now, let's integrate synthesizable fault injection components into the design to
   {
     "class":"labs.passes.FaultTolerantTMRAnnotation",
     "target":"aes.aes_encipher_block.None",
-    "feedback_target":[],
+    "feedback_target":["new_block"],
     "feedback":2
   }
 ]
@@ -139,6 +139,5 @@ Using iverilog to run simulation again, we can get a new graph.
 Great! Now, the design does not leak any information by the attack!
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href="recent-news-boxes.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
