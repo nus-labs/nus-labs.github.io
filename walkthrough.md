@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Walkthrough
-permalink: /walkthrough
+permalink: /walkthrough/
 ---
 In this walkthough, we will try injecting faults into an AES accelerator, retreive the secret key and protect the accelerator against the attack. The target AES accelerator that we are going to use can be found [here](https://github.com/secworks/aes). This repository is already linked to LABS inside work/aes. You may try running the accelerator using an open-source Verilog simulator, [Icarus Verilog (iverilog)](https://github.com/steveicarus/iverilog), or any other simulators. LABS links iverilog which can be found in the iverilog directory. This requires an installation which you can follow [here](https://iverilog.fandom.com/wiki/Installation_Guide).
 
@@ -109,7 +109,7 @@ cd fault_analysis
 python3 giraud.py ../work/aes/result.txt
 ```
 The output graph is shown which should look like this.
-![alt text](images/result.png)
+![alt text](../images/result.png)
 
 This graph shows the number of bytes of the 9th round ciphertext needed to be revealed. We can see that after 128 runs we can reveal the entire 9th round ciphertext. Even though this is not the secret key, we know how the AES algorithm works and can reveal the secret key easily.
 
@@ -134,7 +134,7 @@ cd ../../..
 ```
 
 Using iverilog to run simulation again, we can get a new graph.
-![alt text](images/result_faulty.png)
+![alt text](../images/result_faulty.png)
 
 Great! Now, the design does not leak any information by the attack!
 

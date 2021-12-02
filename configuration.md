@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Configuration
-permalink: /configuration
+permalink: /configuration/
 ---
 LABS uses JSONs to read a configuration. A configuration consists of a variety of annotation classes with different fields which are described below. Note that some classes may be different from the figure in the paper as LABS has been updated. The implementation of all the annotations for LABS can be found in /src/main/scala/labs/passes/Annotations.scala.
 

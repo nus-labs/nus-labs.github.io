@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Laser Attack Benchmark Suite (LABS)
-permalink: /
 ---
 <center><img src="/images/overview.jpg" width="500" height="300"></center>
 
