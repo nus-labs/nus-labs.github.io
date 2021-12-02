@@ -84,7 +84,7 @@ Now, let's integrate synthesizable fault injection components into the design to
 ]
 ```
 
-The FaultinjectionAnnotation indicates the target component to be attacked, which is the block_new logic, using ConditionInjector, that injects bit-flip faults. We can also see a big chunk of a FaultControllerUDAnnotation JSON, which indicates the signals to be observed, user-defined fault values to be injected and fault durations. The "affected_bits" shows the indices of the block_new signal to be flipped which, in this case, shows that we want to inject a single-bit fault to each index sequentially. 
+The FaultinjectionAnnotation indicates the target component to be attacked, which is the block_new logic, using ConditionInjector, that injects bit-flip faults. We can also see a big chunk of a FaultControllerUDAnnotation JSON, which indicates the signals to be observed, user-defined fault values to be injected and fault durations. Each pair of "target" and "data_target" fields indicate the observed signals and target data values. Only when all of the signals are equal to their associated data targets, the fault controller sends a firing signal to the fault injectors to inject a specified fault. In this walkthrough, we want to inject faults at the start of the last round of AES, which is round 10. Thus, we inject faults when the accelerator is at the transition from round 9 to round 10.  The "affected_bits" shows the indices of the block_new signal to be flipped which, in this case, shows that we want to inject a single-bit fault to each index sequentially. 
 
 We can feed this configuration to LABS to integrate fault injection components using the commands below.
 ```code
