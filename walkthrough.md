@@ -136,7 +136,7 @@ cd ../../..
 Using iverilog to run simulation again, we can get a new graph.
 ![alt text](../images/result_faulty.png)
 
-Great! Now, the design does not leak any information by the attack!
+Great! Now, the design does not leak any information from the attack!
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
