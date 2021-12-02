@@ -6,6 +6,8 @@ permalink: /howtouse/
 ### Convert a Verilog design to FIRRTL
 LABS is implemented inside the FIRRTL compiler. Thus, Verilog to FIRRTL conversion is needed. Yosys, a framework for RTL synthesis, supports this conversion and is used in this framework. LABS provides a TCL script to automate the conversion inside yosys\_script.tcl. The script can also be modified based on your needs. To input a number of files to Yosys, an asterisk can also be used, for example /<path>/\*, to provide all files inside the path to Yosys.
 
+Before installing yosys, please run _git checkout yosys-0.10_ in the yosys directory. Other yosys versions may have some errors with the script in LABS.
+
 ```code3
 cd labs
 ./labs -a yosys -i <your_design_name>.v -c yosys_script.tcl -d <output_directory>
