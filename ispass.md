@@ -8,8 +8,11 @@ The 2022 IEEE International Symposium on Performance Analysis of Systems and Sof
 
 - Laser Attack Benchmark Suite (LABS)
 - Efficient Security Protocol Realization for Secure Processors
+- A multi-level evaluation framework for side-channel evaluations on embedded devices
 
 ### Laser Attack Benchmark Suite (LABS)
+#### Presenter: Burin Amornpaisannon
+
 Laser fault injection is one of the most dangerous techniques for fault injection as laser shots can be fired at the precise location and at the right time.
 
 Security evaluation against laser attacks requires costly, sophisticated equipment, and is typically evaluated during the post fabrication stage, which occurs too late. If a vulnerability is found during this stage, the circuit designers inevitably have to restart the entire time-consuming design stages. It is therefore impractical to evaluate chips solely during this stage.
@@ -23,10 +26,21 @@ LABS is an open-source modular framework open for extensions. The users can easi
 During this tutorial, the background on general and laser fault injection attacks is described, comprehensive comparisons between different approaches are elaborated, as well as LABS is presented and demonstrated. 
 
 ### Efficient Security Protocol Realization for Secure Processors
+#### Presenter: Naina Gupta
+
 Modern microprocessors present various layers of trusted computing, based on a fundamental root-of-trust. The root-of-trust is typically implemented through a lightweight crypto co-processor. Despite the best efforts, the currently available commercial processors with trusted computing support - face continuously increasing attacks as well as report high performance overhead. In this talk, we will study two new directions in cryptography, namely lightweight cryptography and post-quantum cryptography. Based on these advances, we will present how the current trusted computing protocols are being adapted to take advantage of these cryptographic advances. We will present detailed comparison for two specific protocols, namely, transparent memory encryption and post-quantum secure boot.
 
-### Presenters
+### A multi-level evaluation framework for side-channel evaluations on embedded devices
+#### Presenter: Shivam Bhasin
+
+In this talk, we take a holistic look at evaluation of embedded systems against side-channel attacks. We propose a generic framework to guide side-channel evaluations at three different levels.  At the basic level, test are designed to be provide a high-level security estimate of the target at hand. Based on basic information like targeted algorithm, signal to noise ratio, implementation style, a quick and rough estimate of the security can be learned. Educated evaluation takes this evaluation deeper by providing reliable hints about underlying protection mechanism to the evaluator. Finally advanced evaluation provides the worst case security guarantees by running lengthy and tedious test. Such a multi-level evaluation framework prevents fault sense of security by a limited evaluation as for example with a basic evaluation.
+
+### Presenter Bios
 Burin is a third year Ph.D. student at the National University of Singapore, Singapore. His research interests include physical attacks, graph accelerator, neuromorphic computing and computer architecture. Prior to joining the Ph.D. programme, Burin graduated from Chulalongkorn University, Thailand, with a bachelor's degree in computer engineering.
+
+Naina Gupta received the bachelor's degree from Guru Gobind Singh Indraprastha University (GGSIPU), India, in 2013 and the master's degree from IIIT-Delhi, India, in 2015. She is currently pursuing Ph.D. degree from School of Computer Science and Engineering (SCSE), Nanyang Technological University (NTU), Singapore from 2018 onwards. Prior to that she has worked as a researcher in IIIT-Delhi from 2015 to 2017 and as an intern in NTU, Singapore from 2017 to 2018. Her research interests are cryptography, side-channel attacks, hardware security, post-quantum cryptography and efficient implementations of cryptographic algorithms.
+
+Dr. Shivam Bhasin is a Senior Research Scientist and Programme Manager (Cryptographic Engineering) at Centre for Hardware Assurance, Temasek Laboratories, Nanyang Technological University Singapore. He received his PhD in Electronics & Communication from Telecom Paristech in 2011, Advanced Master in Security of Integrated Systems & Applications from Mines Saint-Etienne, France in 2008. Before NTU, Shivam held position of Research Engineer in Institut Mines-Telecom, France. He was also a visiting researcher at UCL, Belgium (2011) and Kobe University (2013). His research interests include embedded security, trusted computing and secure designs. He has co-authored several publications at recognized journals and conferences. Some of his research now also forms a part of ISO/IEC 17825 standard.
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
